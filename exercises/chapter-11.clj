@@ -1,4 +1,4 @@
-;; Exercise 1
+;; Example
 
 (defn work-session []
   (go
@@ -40,7 +40,7 @@
     (<! (async/timeout 10000))
     (println "Work is done!")))
 
-;; Example
+;; Exercise 1
 
 (defn pomodoro []
   (go

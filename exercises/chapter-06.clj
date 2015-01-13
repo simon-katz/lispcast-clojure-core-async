@@ -31,7 +31,7 @@
                        (if (wheel? part)
                          part
                          (recur))))]
-        (println "Got first wheel")
+        (println "Got wheel")
         (when (>! wheel-chan wheel)
           (recur))))))
 

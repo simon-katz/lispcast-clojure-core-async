@@ -3,7 +3,7 @@
 (def chan5 (chan 5))
 
 (go
-  (doseq [x 10]
+  (dotimes [x 10]
     (>! chan5 x)
     (println x)))
 
